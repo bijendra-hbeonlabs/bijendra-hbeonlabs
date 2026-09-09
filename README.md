@@ -1,208 +1,167 @@
-Yes — the screenshot confirms the problem: the **GitHub Stats / Streak / Activity / Trophy external image services are failing**, so GitHub is showing broken-image icons. The public GitHub Readme Stats service can also hit GitHub API rate limits, so relying on several dynamic services makes the profile less reliable. ([GitHub][1])
 
-I also checked your resume and there are several important things missing from the previous README: **Blazor, Razor Pages, Bootstrap, Tailwind, LINQ, DI, RabbitMQ, Mosquitto, Postman, all of your listed projects, education, certifications, and achievements**.    
 
-So below is a **more reliable final version**. I have deliberately removed the unreliable Stats/Trophy/Activity image APIs that are causing your screenshot problem. The profile still has animated elements such as the typing header and animated capsule banner, while the important content itself does not depend on those broken analytics cards.
-
-> **Important:** Your resume says your GitHub URL is `github.com/bijendrakumarpatel`, while your previous README used `bijendra-hbeonlabs`. I am using **`bijendrakumarpatel` below because that is the GitHub URL written in your resume**. 
-> If your actual GitHub username is `bijendra-hbeonlabs`, replace that username everywhere.
-
-# ✅ FINAL COMPLETE `README.md`
 
 ````markdown
+<!-- ========================================================= -->
+<!--                  BIJENDRA KUMAR PATEL                     -->
+<!--              PROFESSIONAL GITHUB PROFILE                  -->
+<!-- ========================================================= -->
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=BIJENDRA%20KUMAR%20PATEL&fontSize=45&fontColor=00D9FF&animation=fadeIn&fontAlignY=38&desc=.NET%20%7C%20INDUSTRIAL%20IoT%20%7C%20CLOUD%20%7C%20AUTOMATION&descAlignY=60&descSize=18&color=0D1117" width="100%"/>
+<!-- Animated Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,50:0077FF,100:7A00FF&height=220&section=header&text=BIJENDRA%20KUMAR%20PATEL&fontSize=42&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=Full%20Stack%20.NET%20Developer%20%7C%20Industrial%20IoT%20%7C%20Automation&descAlignY=60&descSize=18" width="100%"/>
 
-<br>
+<br/>
 
-<a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=23&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=900&lines=Full+Stack+.NET+Developer;C%23+%7C+.NET+8+%7C+ASP.NET+Core;Industrial+IoT+%26+Automation+Engineer;MQTT+%7C+Modbus+%7C+RabbitMQ;RESTful+APIs+%7C+Microservices+%7C+RBAC;Cloud-Ready+%7C+Linux+%7C+Docker;Building+Scalable+Enterprise+Solutions" alt="Typing SVG"/>
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=00F5FF&center=true&vCenter=true&width=900&lines=Full+Stack+.NET+Developer;C%23+%7C+.NET+8+%7C+ASP.NET+Core;Industrial+IoT+%26+Automation+Engineer;MQTT+%7C+Modbus+RTU%2FTCP+%7C+RabbitMQ;RESTful+APIs+%7C+Microservices+%7C+RBAC;SQL+Server+%7C+MySQL+%7C+MariaDB;Building+Scalable+Enterprise+Applications" alt="Typing SVG"/>
 
-<br><br>
+<br/>
 
-<a href="https://github.com/bijendrakumarpatel">
-<img src="https://img.shields.io/badge/GitHub-bijendrakumarpatel-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+<p>
+  <a href="https://github.com/bijendrakumarpatel">
+    <img src="https://img.shields.io/badge/GitHub-Bijendra%20Kumar%20Patel-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="mailto:bijendrakumarpatel9@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
 
-<a href="mailto:bijendrakumarpatel9@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://linkedin.com/in/bijendra-kumar-patel">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=bijendrakumarpatel&style=for-the-badge&color=00D9FF&label=PROFILE+VIEWS" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=bijendrakumarpatel&label=PROFILE%20VIEWS&color=00F5FF&style=for-the-badge" alt="Profile Views"/>
 
 </div>
 
 ---
 
-# 👨‍💻 ABOUT ME
-
-<div align="center">
-
-### Full Stack .NET Developer | Industrial IoT | Automation | Cloud-Ready Systems
-
-</div>
-
-I am a **results-oriented Full Stack .NET Developer** with **1+ year of professional experience** building enterprise applications, RESTful APIs, microservices, desktop applications, industrial automation platforms, and IoT solutions.
-
-My core expertise is centered around **C#, .NET 8, ASP.NET Core, Entity Framework Core, SQL Server, MySQL, Avalonia UI, MQTT, Modbus RTU/TCP, RabbitMQ, JWT Authentication, RBAC and real-time telemetry processing**.
-
-I enjoy working at the intersection of:
+# 👨‍💻 About Me
 
 ```text
-Software Engineering
-        +
-Industrial Automation
-        +
-IoT & Hardware Communication
-        +
-Cloud & Infrastructure
-        =
-Scalable Connected Systems
+┌──────────────────────────────────────────────────────────────────────────┐
+│                         BIJENDRA KUMAR PATEL                             │
+├──────────────────────────────────────────────────────────────────────────┤
+│ Role       : Full Stack .NET Developer                                  │
+│ Experience : 1+ Year                                                       │
+│ Focus      : Enterprise Applications + Industrial IoT + Automation       │
+│ Backend    : C# | .NET 8 | ASP.NET Core | REST APIs                      │
+│ Frontend   : Blazor | Razor Pages | Avalonia UI | JavaScript              │
+│ Database   : SQL Server | MySQL | MariaDB                                │
+│ IoT        : MQTT | Modbus RTU/TCP | RS485 | SCADA                       │
+│ Security   : JWT | ASP.NET Core Identity | RBAC                          │
+│ Architecture: REST | Microservices | Background Workers                  │
+│ DevOps     : Git | GitHub | Docker | Linux                               │
+└──────────────────────────────────────────────────────────────────────────┘
 ````
 
-My engineering focus is on:
+I am a **results-oriented Full Stack .NET Developer** focused on building scalable enterprise applications, RESTful APIs, automation platforms, and industrial IoT systems.
 
-* Clean and maintainable code
-* SOLID principles
-* Scalable architecture
-* Secure authentication
-* High-performance APIs
-* Real-time communication
-* Industrial device integration
-* Database optimization
-* Background worker services
-* Production-ready deployments
+My work combines modern **.NET technologies** with low-level industrial communication protocols such as **MQTT, Modbus RTU/TCP and RS485**, enabling software systems to communicate directly with real-world industrial devices.
+
+I enjoy working across the complete development lifecycle:
+
+**Architecture → Backend → Database → Hardware Communication → Security → Testing → Deployment → Monitoring**
 
 ---
 
-# ⚡ QUICK PROFILE
+# ⚡ Professional Profile
 
-|                      |                                       |
-| -------------------- | ------------------------------------- |
-| 👨‍💻 Role           | Full Stack .NET Developer             |
-| 💼 Experience        | 1+ Year                               |
-| 🏢 Current Company   | Hbeonslabs Technology Pvt. Ltd.       |
-| 📍 Location          | Noida, India                          |
-| 🎓 Education         | B.Tech Computer Science & Engineering |
-| 🧠 Primary Language  | C#                                    |
-| ⚙️ Primary Framework | .NET 8 / ASP.NET Core                 |
-| 🏭 Domain            | Industrial IoT & Automation           |
-| 🔌 Communication     | MQTT / Modbus / RS485 / RabbitMQ      |
-| 🗄️ Databases        | SQL Server / MySQL / MariaDB          |
-| 🖥️ Desktop          | Avalonia UI                           |
-| ☁️ Infrastructure    | Docker / Linux / Git                  |
-| 🔐 Security          | JWT / RBAC / ASP.NET Core Identity    |
-| 🧩 Architecture      | REST APIs / Microservices             |
-| 🧠 Problem Solving   | 400+ LeetCode Problems                |
+| Area             | Expertise                                      |
+| ---------------- | ---------------------------------------------- |
+| 💻 Backend       | C#, .NET 8, ASP.NET Core                       |
+| 🌐 Web           | ASP.NET Core Web API, MVC, Blazor, Razor Pages |
+| 🖥️ Desktop      | Avalonia UI                                    |
+| 🗄️ Database     | SQL Server, MySQL, MariaDB                     |
+| 🔐 Security      | JWT, ASP.NET Core Identity, RBAC               |
+| 🏗️ Architecture | REST APIs, Microservices, Dependency Injection |
+| 📡 IoT           | MQTT, Modbus RTU/TCP, RS485                    |
+| ⚙️ Automation    | SCADA, Industrial Gateways, Telemetry          |
+| 📨 Messaging     | MQTT, RabbitMQ, Mosquitto                      |
+| 🐳 DevOps        | Git, GitHub, Docker, Linux                     |
+| 🧠 Programming   | C#, C++, SQL, JavaScript                       |
+| 📊 Optimization  | LINQ, EF Core, Database Optimization           |
 
 ---
 
-# 🧠 CORE ENGINEERING SKILLS
+# 🧠 Core Engineering Skills
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 🔷 .NET Development
 
-## 💻 .NET DEVELOPMENT
+```text
+C#
+.NET 8
+ASP.NET Core
+ASP.NET Core Web API
+ASP.NET Core MVC
+Blazor Server
+Blazor WebAssembly
+Razor Pages
+Avalonia UI
+Entity Framework Core
+LINQ
+Dependency Injection
+Background Services
+Asynchronous Programming
+```
 
-* C#
-* .NET 8
-* ASP.NET Core
-* ASP.NET Core Web API
-* ASP.NET Core MVC
-* Blazor Server
-* Blazor WASM
-* Razor Pages
-* Avalonia UI
-* Entity Framework Core
-* LINQ
-* Dependency Injection
-* RESTful APIs
-* Microservices
-* Background Worker Services
+### 🔐 Security & Architecture
 
-</td>
+```text
+JWT Authentication
+ASP.NET Core Identity
+Role Based Access Control
+RESTful APIs
+Microservices
+Dependency Injection
+Secure API Design
+Clean Code
+SOLID Principles
+Scalable Architecture
+```
 
-<td width="50%" valign="top">
+### 📡 Industrial IoT
 
-## 🔐 SECURITY & ARCHITECTURE
+```text
+MQTT
+Modbus RTU
+Modbus TCP
+RS485
+SCADA Integration
+Industrial Gateways
+Telemetry Processing
+Real-Time Monitoring
+Device Communication
+Fault Detection
+M2M Communication
+```
 
-* JWT Authentication
-* Role-Based Access Control
-* ASP.NET Core Identity
-* Secure API Design
-* Dependency Injection
-* Clean Code
-* SOLID Principles
-* Modular Architecture
-* Scalable Backend Architecture
-* Authentication & Authorization
-* Transaction Integrity
-* Performance Optimization
+### 🗄️ Database Engineering
 
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-## 🏭 INDUSTRIAL IoT
-
-* MQTT
-* Modbus RTU
-* Modbus TCP
-* RS485
-* SCADA Integration
-* Industrial Telemetry
-* Real-Time Monitoring
-* Edge Computing
-* Device Communication
-* Industrial Gateways
-* VFD Communication
-* Sensor Networks
-
-</td>
-
-<td width="50%" valign="top">
-
-## ☁️ CLOUD & INFRASTRUCTURE
-
-* Docker
-* Linux
-* Ubuntu
-* Git
-* GitHub
-* REST Services
-* MQTT Brokers
-* Mosquitto
-* RabbitMQ
-* Server Deployment
-* Background Services
-* Real-Time Telemetry Processing
-
-</td>
-</tr>
-</table>
+```text
+SQL Server
+MySQL
+MariaDB
+Entity Framework Core
+LINQ
+Database Design
+Indexes
+Query Optimization
+Relational Database Architecture
+Telemetry Data Storage
+```
 
 ---
 
-# 🛠️ COMPLETE TECHNOLOGY STACK
+# 🛠️ Technology Stack
 
-## 💻 Programming Languages
+## 👨‍💻 Languages
 
-<p align="center">
+<p align="left">
 
 <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white"/>
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
@@ -211,32 +170,19 @@ My engineering focus is on:
 
 ---
 
-## ⚙️ .NET & Backend
+## 🚀 .NET & Frameworks
 
-<p align="center">
+<p align="left">
 
 <img src="https://img.shields.io/badge/.NET%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
 <img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
-<img src="https://img.shields.io/badge/Web%20API-5C2D91?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/MVC-5C2D91?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Web%20API-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+<img src="https://img.shields.io/badge/MVC-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
 <img src="https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white"/>
-<img src="https://img.shields.io/badge/Razor%20Pages-512BD4?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Avalonia%20UI-8D52E2?style=for-the-badge"/>
-
-</p>
-
----
-
-## 🎨 Frontend
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Razor%20Pages-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+<img src="https://img.shields.io/badge/Avalonia-7F52FF?style=for-the-badge&logo=avalonia&logoColor=white"/>
 <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-<img src="https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white"/>
 
 </p>
 
@@ -244,385 +190,519 @@ My engineering focus is on:
 
 ## 🗄️ Databases & ORM
 
-<p align="center">
+<p align="left">
 
 <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Entity%20Framework%20Core-68217A?style=for-the-badge&logo=dotnet&logoColor=white"/>
+<img src="https://img.shields.io/badge/Entity%20Framework%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
 <img src="https://img.shields.io/badge/LINQ-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
 
 </p>
 
-### Database Expertise
-
-```text
-Database Design
-       ↓
-Schema Design
-       ↓
-Entity Framework Core
-       ↓
-LINQ Queries
-       ↓
-Query Optimization
-       ↓
-Indexing
-       ↓
-High-Performance Data Access
-```
-
 ---
 
-# 🔌 INDUSTRIAL IoT & COMMUNICATION
+## 📡 Industrial IoT & Communication
 
-<div align="center">
-
-```text
-                         ┌────────────────────┐
-                         │      CLOUD         │
-                         │ APIs / Database    │
-                         └─────────▲──────────┘
-                                   │
-                              MQTT / HTTP
-                                   │
-                         ┌─────────┴──────────┐
-                         │    EDGE GATEWAY    │
-                         │                    │
-                         │ .NET / Linux       │
-                         │ MQTT / Workers     │
-                         └─────────▲──────────┘
-                                   │
-                         Modbus RTU / TCP
-                                   │
-                         ┌─────────┴──────────┐
-                         │ INDUSTRIAL DEVICES │
-                         │                    │
-                         │ VFD / Meter / PLC  │
-                         │ Sensors / SCADA    │
-                         └────────────────────┘
-```
-
-</div>
-
-### Protocols & Technologies
-
-<p align="center">
+<p align="left">
 
 <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white"/>
+<img src="https://img.shields.io/badge/Modbus-FF6F00?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/RS485-1E88E5?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/SCADA-37474F?style=for-the-badge&logoColor=white"/>
 <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white"/>
-<img src="https://img.shields.io/badge/Mosquitto-3C5280?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Modbus%20RTU%2FTCP-FF8C00?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/RS485-0000CD?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/SCADA-1F6FEB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Mosquitto-3C5280?style=for-the-badge&logo=eclipsemosquitto&logoColor=white"/>
 
 </p>
 
 ---
 
-# 🏢 PROFESSIONAL EXPERIENCE
+## 🧰 Tools & Infrastructure
+
+<p align="left">
+
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+<img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white"/>
+
+</p>
+
+---
+
+# 🏢 Professional Experience
 
 ## 💼 .NET Developer — Hbeonslabs Technology Pvt. Ltd.
 
-**Noida, India | January 2025 – Present**
+**Noida, India | 01/2025 – Present**
 
 ### Key Responsibilities
 
-* Engineered high-throughput enterprise applications using **C#, .NET 8, ASP.NET Core and Avalonia UI**.
-* Developed cross-platform desktop and web automation environments.
-* Designed secure RESTful APIs using **JWT Authentication and ASP.NET Core Identity**.
-* Implemented fine-grained **Role-Based Access Control (RBAC)**.
-* Designed optimized database schemas using **Entity Framework Core, SQL Server and MySQL**.
-* Developed high-efficiency **LINQ queries** for live monitoring dashboards.
-* Integrated **MQTT, Modbus RTU/TCP and SCADA** communication pipelines.
-* Developed asynchronous background worker services for industrial telemetry processing.
-* Implemented telemetry validation and real-time alert mechanisms.
-* Managed source code, branching and version control using **Git and GitHub**.
-* Worked on production-oriented industrial automation and IoT solutions.
+* Developed enterprise applications using **C#, .NET 8, ASP.NET Core and Avalonia UI**.
+* Designed and implemented secure **RESTful APIs**.
+* Implemented **JWT Authentication** and **ASP.NET Core Identity**.
+* Designed fine-grained **Role-Based Access Control (RBAC)**.
+* Optimized Entity Framework Core queries and database schemas.
+* Worked with **SQL Server, MySQL and MariaDB**.
+* Integrated **MQTT, Modbus RTU/TCP and SCADA** systems.
+* Developed asynchronous background workers for industrial telemetry.
+* Implemented real-time monitoring and alerting systems.
+* Worked with Git/GitHub and feature-based development workflows.
+* Built software capable of processing high-frequency industrial telemetry.
+* Developed communication layers between software applications and industrial hardware.
 
 ---
 
-# 🚀 FEATURED PROJECTS
+# 🏗️ Featured Projects
 
-## ☀️ 01 — VayuSolar
-
-### Solar Plant Monitoring & Autonomous Cleaning Robot Platform
+## ☀️ 01. VayuSolar — Solar Plant Monitoring System
 
 **Role:** .NET Developer
 
-* Engineered a centralized high-availability monitoring portal using **ASP.NET Core and C#**.
-* Developed monitoring functionality for autonomous solar cleaning robots.
-* Implemented live energy monitoring.
-* Integrated **Modbus RTU/TCP and MQTT** communication.
-* Processed telemetry directly from field-deployed solar inverters.
-* Built backend worker services using **Entity Framework Core and MySQL**.
-* Implemented continuous telemetry logging.
-* Developed automated maintenance scheduling.
+### Technology
+
+```text
+C#
+.NET 8
+ASP.NET Core
+Entity Framework Core
+MySQL
+MQTT
+Modbus RTU/TCP
+Background Workers
+Real-Time Telemetry
+```
+
+### Description
+
+Centralized high-availability monitoring platform designed to control autonomous solar panel cleaning robots and monitor live solar energy metrics.
+
+### Responsibilities
+
+* Developed ASP.NET Core backend services.
+* Integrated **Modbus RTU/TCP** communication.
+* Integrated **MQTT** telemetry.
+* Communicated with solar inverters and industrial devices.
+* Developed telemetry-processing background workers.
+* Implemented maintenance scheduling.
 * Implemented real-time failure alerts.
-
-### Technology
-
-`C#` `.NET 8` `ASP.NET Core` `EF Core` `MySQL` `MQTT` `Modbus` `Industrial IoT`
+* Stored and processed telemetry using EF Core and MySQL.
 
 ---
 
-# 🧪 02 — UTL Solar Testing Automation Platform
-
-### Automated Solar Inverter Datalogger Testing
+## ☀️ 02. UTL Solar Testing Automation Platform
 
 **Role:** .NET Developer
-
-* Built a high-performance desktop testing application using **C# and .NET 8**.
-* Automated validation procedures for solar inverter dataloggers.
-* Implemented asynchronous MQTT client architecture.
-* Parsed real-time telemetry packets.
-* Automatically matched device IMEIs.
-* Implemented strict pass/fail quality criteria.
-* Developed dynamic test reporting modules.
-* Generated test verification certificates automatically.
-* Reduced manual testing turnaround time.
 
 ### Technology
 
-`C#` `.NET 8` `Avalonia UI` `MQTT` `Async Programming` `Telemetry`
+```text
+C#
+.NET 8
+Avalonia UI
+MQTT
+Async Programming
+Telemetry Processing
+Database
+```
+
+### Description
+
+Desktop-based testing automation platform for solar inverter dataloggers.
+
+### Responsibilities
+
+* Developed C#/.NET 8 desktop testing application.
+* Implemented asynchronous MQTT communication.
+* Parsed incoming telemetry.
+* Matched device IMEIs.
+* Implemented automated pass/fail criteria.
+* Generated dynamic testing reports.
+* Implemented verification certificate generation.
 
 ---
 
-# 🚂 03 — Amrit Bharat Station Scheme
-
-### Railway IoT Infrastructure Monitoring
+## 🚉 03. Amrit Bharat Station Scheme — IoT Infrastructure
 
 **Role:** .NET Developer
-
-* Contributed to railway infrastructure modernization through IoT monitoring software.
-* Developed software for large-scale utility deployments.
-* Programmed custom hardware communication routines in C#.
-* Processed raw protocol buffers.
-* Parsed hexadecimal device responses.
-* Executed complex `#READ` commands over Modbus RTU.
-* Built ASP.NET Core REST APIs.
-* Normalized telemetry data.
-* Streamed telemetry securely into centralized SCADA dashboards.
 
 ### Technology
 
-`C#` `ASP.NET Core` `REST API` `Modbus RTU` `SCADA` `IoT`
+```text
+C#
+.NET
+ASP.NET Core
+Modbus RTU
+SCADA
+Industrial Communication
+IoT
+```
+
+### Description
+
+IoT infrastructure monitoring and automation solution for large-scale railway utility deployments.
+
+### Responsibilities
+
+* Developed C# hardware communication routines.
+* Worked with raw protocol buffers.
+* Processed hexadecimal device responses.
+* Implemented `#READ` based Modbus communication.
+* Integrated field devices with centralized systems.
+* Developed ASP.NET Core REST APIs.
+* Normalized telemetry data for SCADA dashboards.
 
 ---
 
-# 🏭 04 — Centralized Network Platform (CNP)
-
-### Industrial Equipment Monitoring Platform
+## ⚡ 04. Centralized Network Platform — CNP
 
 **Role:** .NET Developer
-
-* Designed an enterprise-grade centralized networking platform.
-* Implemented real-time operational tracking of:
-
-  * VFDs
-  * Motors
-  * Automated machinery
-* Built microservices using **.NET 8 and ASP.NET Core Web API**.
-* Used SQL Server for high-performance data processing.
-* Implemented transactional integrity.
-* Developed secure RBAC.
-* Implemented identity management using JWT and ASP.NET Core Identity.
 
 ### Technology
 
-`.NET 8` `ASP.NET Core` `Microservices` `SQL Server` `JWT` `RBAC`
+```text
+.NET 8
+ASP.NET Core Web API
+SQL Server
+Microservices
+JWT
+ASP.NET Core Identity
+RBAC
+```
+
+### Description
+
+Enterprise centralized networking platform for real-time operational tracking of VFDs, motors and automated machinery.
+
+### Responsibilities
+
+* Developed .NET 8 Web APIs.
+* Designed SQL Server data architecture.
+* Built microservice-based backend components.
+* Implemented high-performance data processing.
+* Maintained transactional integrity.
+* Implemented JWT authentication.
+* Implemented ASP.NET Core Identity.
+* Developed role-based authorization.
 
 ---
 
-# 🏗️ 05 — Construct to Help
-
-### Community Resource Platform
+## 🏗️ 05. Construct to Help — Community Resource Platform
 
 **Role:** .NET Developer
 
-* Developed scalable backend APIs using ASP.NET Core Web API.
-* Connected construction material resources with local community projects.
-* Integrated SQL Server.
-* Implemented optimized database indexing.
-* Developed user registration.
-* Developed project allocation workflows.
+### Technology
+
+```text
+ASP.NET Core Web API
+C#
+SQL Server
+REST APIs
+Database Optimization
+```
+
+### Description
+
+Community resource platform connecting construction resources with community-driven projects.
+
+### Responsibilities
+
+* Developed ASP.NET Core Web API backend.
+* Designed relational database architecture.
+* Implemented registration workflows.
+* Implemented project allocation functionality.
+* Optimized SQL Server indexes.
 * Implemented live activity tracking.
 
-### Technology
-
-`C#` `ASP.NET Core` `Web API` `SQL Server` `REST`
-
 ---
 
-# 📡 06 — Industrial IoT Monitoring System
-
-### Real-Time Industrial Automation Monitoring
+## 🏭 06. Industrial IoT Monitoring System
 
 **Role:** .NET Developer
 
-* Developed real-time monitoring infrastructure for industrial automation devices.
-* Integrated field sensors.
-* Implemented MQTT communication.
-* Integrated Modbus RTU.
-* Integrated Modbus TCP.
-* Developed ASP.NET Core backend services.
+### Technology
+
+```text
+ASP.NET Core
+C#
+MQTT
+Modbus RTU/TCP
+SQL Server
+Industrial IoT
+Telemetry
+```
+
+### Description
+
+Real-time industrial monitoring platform for automation devices and field sensors.
+
+### Responsibilities
+
+* Developed real-time monitoring services.
+* Integrated MQTT devices.
+* Integrated Modbus RTU/TCP devices.
+* Built ASP.NET Core backend services.
 * Processed high-frequency sensor data.
-* Built real-time dashboards.
-* Optimized SQL Server telemetry storage pipelines.
-
-### Technology
-
-`ASP.NET Core` `MQTT` `Modbus RTU` `Modbus TCP` `SQL Server` `IoT`
+* Designed optimized SQL Server telemetry pipelines.
+* Developed real-time dashboards.
+* Implemented device communication and monitoring.
 
 ---
 
-# ⚡ 07 — Industrial Gateway Systems
-
-### Delta VFD & Statcon
+## ⚙️ 07. Industrial Gateway Systems — Delta VFD & Statcon
 
 **Role:** .NET Developer
-
-* Engineered bi-directional control applications in C#.
-* Implemented MQTT communication.
-* Implemented RS485 communication.
-* Developed centralized remote management for power conversion devices.
-* Built .NET background services.
-* Implemented continuous telemetry ingestion.
-* Developed fault diagnosis functionality.
-* Published device state changes to cloud infrastructure.
 
 ### Technology
 
-`C#` `.NET` `MQTT` `RS485` `Background Services` `Industrial Automation`
+```text
+C#
+.NET
+MQTT
+RS485
+Industrial Gateway
+Background Services
+Telemetry
+Fault Diagnosis
+```
+
+### Description
+
+Industrial gateway applications for remote management of high-voltage power conversion equipment.
+
+### Responsibilities
+
+* Developed bi-directional C# communication applications.
+* Integrated MQTT communication.
+* Integrated RS485 communication.
+* Implemented remote device control.
+* Developed .NET background services.
+* Processed telemetry.
+* Implemented fault diagnosis.
+* Synchronized cloud/device state changes.
 
 ---
 
-# 🏢 08 — Enterprise Resource Planning System
-
-### Modular ERP Platform
+## 🏢 08. Enterprise Resource Planning — ERP
 
 **Role:** .NET Developer
 
-Modules included:
+### Technology
+
+```text
+ASP.NET Core
+Blazor
+Entity Framework Core
+SQL Server
+C#
+```
+
+### Modules
 
 ```text
 Inventory
 Production
-HR
+Human Resources
 Finance
 Sales
 Attendance
 ```
 
-### Technology
+### Responsibilities
 
-`ASP.NET Core` `Blazor` `Entity Framework Core` `SQL Server`
+* Developed modular ERP architecture.
+* Built ASP.NET Core backend services.
+* Developed Blazor components.
+* Implemented EF Core data access.
+* Designed SQL Server database.
+* Implemented business workflows.
 
 ---
 
-# 📚 09 — Library Management System
-
-### Desktop Management Application
+## 📚 09. Library Management System
 
 **Role:** .NET / C++ Developer
 
-* Developed desktop library management software.
-* Applied Object-Oriented Programming principles.
-* Implemented relational database integration.
-* Developed CRUD operations.
-* Managed book inventory.
-* Managed student records.
-* Implemented secure login verification.
-
 ### Technology
 
-`C++` `C#` `OOP` `SQL` `Desktop Application`
+```text
+C++
+OOP
+SQL
+Desktop Application
+CRUD
+Authentication
+```
+
+### Features
+
+* Book management.
+* Student management.
+* Search and filtering.
+* CRUD operations.
+* Relational database.
+* Secure login.
+* Object-Oriented Programming based architecture.
 
 ---
 
-# 🤖 10 — AI Video Notes Generator
-
-### VID2NOTES
+## 🎥 10. AI Video Notes Generator — VID2NOTES
 
 **Role:** Backend Developer
 
-* Developed audio processing workflows.
-* Integrated **Vosk** speech recognition.
-* Integrated **FFmpeg**.
-* Implemented speech-to-text transcription.
-* Integrated AI-powered summarization.
-* Developed persistent SQL database storage.
-* Connected responsive frontend with backend processing.
-
 ### Technology
 
-`AI` `Vosk` `FFmpeg` `Speech-to-Text` `SQL` `Backend APIs`
+```text
+Vosk
+FFmpeg
+Speech-to-Text
+AI Summarization
+Backend APIs
+SQL
+```
+
+### Features
+
+* Video/audio processing.
+* Audio extraction using FFmpeg.
+* Speech-to-text using Vosk.
+* AI-powered summarization.
+* Automatic notes generation.
+* SQL-based persistence.
+* Responsive frontend integration.
 
 ---
 
-# 💬 11 — Gemini AI Chat Clone
-
-### Intelligent AI Chat Application
+## 🤖 11. Gemini AI Chat Clone
 
 **Role:** Software Developer
 
-* Integrated Google Gemini APIs.
-* Developed interactive chatbot functionality.
-* Implemented backend API logic.
-* Developed responsive frontend interfaces.
-* Implemented low-latency real-time communication.
-
 ### Technology
 
-`C#` `API Integration` `AI` `REST` `Frontend`
+```text
+Google Gemini API
+Backend APIs
+JavaScript
+Real-Time Communication
+Responsive UI
+```
+
+### Features
+
+* AI chatbot interface.
+* Google Gemini API integration.
+* Backend API logic.
+* Real-time communication.
+* Responsive frontend.
+* Conversation workflow.
 
 ---
 
-# 🔐 SECURITY & AUTHENTICATION
+# 📡 Industrial IoT Architecture
 
-<div align="center">
+```text
+                    ┌───────────────────────┐
+                    │     FIELD DEVICES     │
+                    │                       │
+                    │ Sensors / VFD / PLC   │
+                    │ Inverter / Meter      │
+                    └───────────┬───────────┘
+                                │
+                         Modbus RTU/TCP
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │   INDUSTRIAL GATEWAY  │
+                    │                       │
+                    │ C# / .NET Services    │
+                    │ RS485 Communication   │
+                    └───────────┬───────────┘
+                                │
+                              MQTT
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │      MQTT BROKER       │
+                    │                       │
+                    │ Mosquitto / RabbitMQ  │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │    ASP.NET CORE API   │
+                    │                       │
+                    │ REST APIs              │
+                    │ Background Workers    │
+                    │ Business Logic        │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │       DATABASE        │
+                    │                       │
+                    │ SQL Server            │
+                    │ MySQL / MariaDB       │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │     WEB / DESKTOP     │
+                    │                       │
+                    │ Blazor / Web UI       │
+                    │ Avalonia UI           │
+                    │ Monitoring Dashboard  │
+                    └───────────────────────┘
+```
+
+---
+
+# 🔐 Security Architecture
 
 ```text
                     ┌──────────────────┐
-                    │     CLIENT       │
+                    │      CLIENT      │
                     └────────┬─────────┘
                              │
                              ▼
                     ┌──────────────────┐
-                    │  JWT AUTHENTIC.  │
+                    │   LOGIN / AUTH   │
                     └────────┬─────────┘
                              │
                              ▼
                     ┌──────────────────┐
-                    │      RBAC        │
+                    │ JWT ACCESS TOKEN │
                     └────────┬─────────┘
                              │
-                  ┌──────────┴──────────┐
-                  ▼                     ▼
-             ADMIN USER            NORMAL USER
-                  │                     │
-                  └──────────┬──────────┘
                              ▼
                     ┌──────────────────┐
                     │ ASP.NET CORE API │
+                    └────────┬─────────┘
+                             │
+                    ┌────────▼────────┐
+                    │      RBAC        │
+                    │                  │
+                    │ Admin             │
+                    │ Operator          │
+                    │ User              │
+                    │ Custom Roles      │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │ BUSINESS LOGIC   │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │    DATABASE      │
                     └──────────────────┘
 ```
 
-</div>
-
-### Security Technologies
-
-* JWT Authentication
-* ASP.NET Core Identity
-* Role-Based Access Control
-* Secure REST APIs
-* Authorization Policies
-* Identity Management
-* User/Role Permissions
-
 ---
 
-# 🧩 ARCHITECTURE & DEVELOPMENT
+# ⚙️ Development Architecture
 
 ```text
                     REQUIREMENTS
@@ -631,294 +711,452 @@ Attendance
                   SYSTEM DESIGN
                          │
                          ▼
-                   ARCHITECTURE
-                         │
-             ┌───────────┼───────────┐
-             ▼           ▼           ▼
-          Backend     Database     Frontend
-             │           │           │
-             └───────────┼───────────┘
-                         ▼
-                      TESTING
+                 API ARCHITECTURE
                          │
                          ▼
-                     SECURITY
+               BUSINESS LOGIC
                          │
                          ▼
-                     DEPLOYMENT
+                 DATA ACCESS
                          │
                          ▼
-                    MONITORING
+               DATABASE DESIGN
                          │
                          ▼
-                     SCALING
+            HARDWARE / IoT INTEGRATION
+                         │
+                         ▼
+                    TESTING
+                         │
+                         ▼
+                 OPTIMIZATION
+                         │
+                         ▼
+                    DEPLOYMENT
+                         │
+                         ▼
+                  MONITORING
 ```
 
 ---
 
-# 🐳 DEVOPS & INFRASTRUCTURE
-
-### Tools
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white"/>
-<img src="https://img.shields.io/badge/Mosquitto-3C5280?style=for-the-badge"/>
-
-</p>
-
----
-
-# 🧠 DEVELOPMENT PRINCIPLES
-
-<div align="center">
-
-| Principle         | Focus                                 |
-| ----------------- | ------------------------------------- |
-| 🧱 SOLID          | Maintainable software                 |
-| 🔐 Security First | Secure authentication & authorization |
-| ⚡ Performance     | Efficient queries & APIs              |
-| 🧩 Modularity     | Reusable components                   |
-| 🧪 Testing        | Reliable production systems           |
-| 📈 Scalability    | Enterprise-ready architecture         |
-| 🔄 Automation     | Reduce repetitive operations          |
-| 📡 Real-Time      | Live industrial telemetry             |
-| 🧹 Clean Code     | Readability & maintainability         |
-
-</div>
-
----
-
-# 📊 ENGINEERING CAPABILITIES
+# 🧩 Software Engineering Principles
 
 ```text
-.NET Development             ████████████████████
-ASP.NET Core                 ████████████████████
-C#                           ████████████████████
-REST APIs                    ███████████████████░
-Entity Framework Core        ███████████████████░
-SQL / Database               ███████████████████░
-Industrial IoT               ███████████████████░
-MQTT                         ██████████████████░░
-Modbus                       ██████████████████░░
-Authentication / RBAC        ██████████████████░░
-Linux / Deployment           ████████████████░░░░
-Docker                       ███████████████░░░░░
-Microservices                ███████████████░░░░░
-AI Integration               ████████████░░░░░░░░
+✓ SOLID Principles
+✓ Clean Code
+✓ Separation of Concerns
+✓ Dependency Injection
+✓ Repository / Service Patterns
+✓ RESTful API Design
+✓ Asynchronous Programming
+✓ Exception Handling
+✓ Logging & Monitoring
+✓ Database Optimization
+✓ Secure Authentication
+✓ Role-Based Authorization
+✓ Scalable Architecture
+✓ Reusable Components
+✓ Maintainable Code
 ```
 
 ---
 
-# 🎓 EDUCATION
+# 🔄 Real-Time Telemetry Pipeline
+
+```text
+Industrial Device
+       │
+       ▼
+Modbus / RS485
+       │
+       ▼
+Gateway
+       │
+       ▼
+MQTT
+       │
+       ▼
+Message Broker
+       │
+       ▼
+Background Worker
+       │
+       ▼
+Validation
+       │
+       ▼
+Business Logic
+       │
+       ▼
+Database
+       │
+       ▼
+REST API
+       │
+       ▼
+Monitoring Dashboard
+```
+
+---
+
+# 🐳 DevOps & Development Workflow
+
+```text
+              ┌───────────────┐
+              │    Developer  │
+              └───────┬───────┘
+                      │
+                      ▼
+                 Git Branch
+                      │
+                      ▼
+                 Development
+                      │
+                      ▼
+                  Testing
+                      │
+                      ▼
+                  GitHub
+                      │
+                      ▼
+                  Docker
+                      │
+                      ▼
+                  Linux
+                      │
+                      ▼
+                 Deployment
+                      │
+                      ▼
+                 Monitoring
+```
+
+---
+
+# 📊 Engineering Capabilities
+
+```text
+.NET Backend Development       ████████████████████
+ASP.NET Core APIs              ████████████████████
+C# Development                 ████████████████████
+Database Engineering           ███████████████████░
+Industrial IoT                 ███████████████████░
+MQTT / Telemetry               ███████████████████░
+Modbus / RS485                 ██████████████████░░
+Authentication / RBAC          ██████████████████░░
+Microservices                  █████████████████░░░
+Desktop Applications           █████████████████░░░
+```
+
+---
+
+# 🎓 Education
 
 ## Bachelor of Technology — Computer Science & Engineering
 
-**Meerut Institute of Technology, Meerut, India**
+**Meerut Institute Of Technology, Meerut, India**
 
-**2022 – 2026**
-
----
-
-# 📜 CERTIFICATIONS
-
-* 🏅 **TCS iON Career Edge – Young Professional** — TCS iON
-* 🏅 **ASTRA Sales Force Internship**
-* 🏅 **Certified Java, C++ & Python Developer** — GeeksforGeeks
-* 🛡️ **Cybersecurity Essentials** — Cisco Networking Academy
-* ⚙️ **ServiceNow Platform Fundamentals** — ServiceNow
+```text
+2022 ─────────────────────────────── 2026
+             B.Tech CSE
+```
 
 ---
 
-# 🏆 ACHIEVEMENTS
+# 🏆 Certifications
 
-### 🧠 400+ LeetCode Problems
+### 🎓 TCS iON Career Edge — Young Professional
 
-Solved **400+ computational problems on LeetCode**, demonstrating strong Data Structures and Algorithms problem-solving skills.
+**TCS iON**
 
-### 🚀 Production Applications
+### 🚀 ASTRA Sales Force Internship
 
-Successfully developed and shipped multiple production-grade enterprise applications combining **ASP.NET Core backends with low-level industrial hardware communication protocols**.
+**ASTRA**
+
+### ☕ Certified Java, C++ & Python Developer
+
+**GeeksforGeeks**
+
+### 🔐 Cybersecurity Essentials
+
+**Cisco Networking Academy**
+
+### ⚙️ ServiceNow Platform Fundamentals
+
+**ServiceNow**
+
+---
+
+# 🏅 Achievements
+
+### 💻 400+ DSA Problems
+
+Solved **400+ computational problems on LeetCode**, strengthening algorithmic thinking and problem-solving skills.
+
+### 🚀 Production-Grade Applications
+
+Delivered multiple production-oriented enterprise applications combining modern ASP.NET Core backends with industrial hardware communication.
 
 ### 📡 High-Throughput Telemetry
 
-Engineered reliable machine-to-machine communication layers capable of processing **thousands of telemetry messages per minute** using MQTT and Modbus TCP.
+Engineered machine-to-machine communication layers capable of processing **thousands of telemetry messages per minute** using MQTT and Modbus TCP.
 
 ---
 
-# 🔭 CURRENTLY LEARNING & EXPLORING
+# 🧪 What I Work On
 
 ```text
-☁️ Cloud-Native .NET
-        │
-        ├── Azure
-        ├── Distributed Systems
-        └── Cloud Architecture
-
-🏗️ Advanced .NET Architecture
-        │
-        ├── Microservices
-        ├── Clean Architecture
-        ├── SOLID
-        └── Design Patterns
-
-⚡ Real-Time Systems
-        │
-        ├── MQTT
-        ├── RabbitMQ
-        ├── SignalR
-        └── Event-Driven Architecture
-
-🏭 Industrial IoT
-        │
-        ├── Edge Computing
-        ├── Device Telemetry
-        ├── Automation
-        └── Industrial Protocols
-
-🐳 DevOps
-        │
-        ├── Docker
-        ├── Linux
-        ├── CI/CD
-        └── Infrastructure
+Enterprise Software
+       +
+Cloud-Ready APIs
+       +
+Industrial Automation
+       +
+IoT Communication
+       +
+Real-Time Telemetry
+       +
+Database Engineering
+       +
+Secure Authentication
+       +
+Scalable Architecture
 ```
 
 ---
 
-# 🎯 CAREER VISION
-
-My goal is to become a highly skilled **Software Engineer / .NET Engineer** capable of designing and delivering large-scale systems across:
+# 🔭 Currently Exploring
 
 ```text
-             SOFTWARE
-                │
-                ▼
-        ┌───────────────┐
-        │     .NET      │
-        └───────┬───────┘
-                │
-       ┌────────┼────────┐
-       ▼        ▼        ▼
-      IoT     Cloud    Enterprise
-       │        │        │
-       └────────┼────────┘
-                ▼
-       Intelligent Systems
+.NET 8 / Modern .NET
+Cloud-Native Architecture
+Microservices
+Docker
+Distributed Systems
+Advanced SQL Optimization
+RabbitMQ
+Real-Time Systems
+Industrial IoT
+System Design
+High-Performance APIs
+DevOps & CI/CD
 ```
 
-I am particularly interested in engineering teams working on:
+---
 
-* Enterprise Software
-* Cloud Platforms
-* Industrial Automation
+# 🎯 Career Vision
+
+I am continuously improving my skills in:
+
+* Advanced **.NET architecture**
+* Cloud-native application development
+* Distributed systems
+* Microservices
+* System design
+* High-performance backend engineering
+* Database optimization
+* DevOps and CI/CD
 * Industrial IoT
-* Distributed Systems
-* Backend Engineering
-* Real-Time Systems
-* Developer Infrastructure
-* AI-powered applications
+* Real-time communication systems
+
+### Long-Term Goal
+
+> **Build highly scalable, reliable and intelligent software systems that connect enterprise applications with real-world industrial infrastructure.**
 
 ---
 
-# 🌐 LET'S CONNECT
+# 📂 Featured Technology Areas
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 💻 Backend
+
+* C#
+* .NET 8
+* ASP.NET Core
+* Web API
+* MVC
+* Blazor
+* REST
+* Microservices
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🗄️ Data
+
+* SQL Server
+* MySQL
+* MariaDB
+* EF Core
+* LINQ
+* Query Optimization
+* Database Design
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 📡 Industrial
+
+* MQTT
+* Modbus RTU
+* Modbus TCP
+* RS485
+* SCADA
+* VFD
+* Solar Inverters
+* Industrial Gateways
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🔐 Security
+
+* JWT
+* ASP.NET Identity
+* RBAC
+* Authentication
+* Authorization
+* Secure APIs
+* Access Control
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### ⚙️ Engineering
+
+* SOLID
+* Clean Code
+* Dependency Injection
+* Async Programming
+* Background Workers
+* Performance Optimization
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🛠️ DevOps
+
+* Git
+* GitHub
+* Docker
+* Linux
+* RabbitMQ
+* Mosquitto
+* Postman
+
+</td>
+</tr>
+</table>
+
+---
+
+# 🌐 Connect With Me
 
 <div align="center">
-
-<a href="mailto:bijendrakumarpatel9@gmail.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="tel:+917050588400">
-<img src="https://img.shields.io/badge/Phone%20%2F%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-</a>
 
 <a href="https://github.com/bijendrakumarpatel">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="https://linkedin.com/in/bijendra-kumar-patel">
+<a href="mailto:bijendrakumarpatel9@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-</div>
+<br/><br/>
 
----
+📧 **[bijendrakumarpatel9@gmail.com](mailto:bijendrakumarpatel9@gmail.com)**
 
-# ⚡ ENGINEERING MINDSET
+📱 **+91 7050588400**
 
-<div align="center">
-
-```text
-       THINK
-         ↓
-       DESIGN
-         ↓
-       BUILD
-         ↓
-       TEST
-         ↓
-      SECURE
-         ↓
-      DEPLOY
-         ↓
-      MONITOR
-         ↓
-      OPTIMIZE
-         ↓
-       SCALE
-```
-
-### "Build reliable systems. Connect the physical world. Scale with software."
+📍 **India**
 
 </div>
 
 ---
 
+# 💡 Engineering Mindset
+
+```text
+                    THINK
+                      │
+                      ▼
+                   DESIGN
+                      │
+                      ▼
+                    BUILD
+                      │
+                      ▼
+                    TEST
+                      │
+                      ▼
+                 OPTIMIZE
+                      │
+                      ▼
+                   DEPLOY
+                      │
+                      ▼
+                  MONITOR
+                      │
+                      ▼
+                 IMPROVE
+                      │
+                      └──────────────► REPEAT
+```
+
+> **"Write code that solves today's problem without creating tomorrow's problem."**
+
+---
+
+# ⭐ GitHub Philosophy
+
+```text
+Clean Code
+     +
+Strong Architecture
+     +
+Reliable Communication
+     +
+Secure APIs
+     +
+Optimized Databases
+     +
+Real-Time Systems
+     +
+Continuous Learning
+     =
+Production-Ready Software
+```
+
+---
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=00D9FF&animation=twinkling" width="100%"/>
+### 🚀 Building the bridge between Software, Cloud & Industrial Automation
 
-### ⚡ BUILD • AUTOMATE • CONNECT • SCALE
+<br/>
 
-<br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&width=800&lines=Code.+Connect.+Automate.+Scale.;Building+Enterprise+%26+Industrial+IoT+Solutions.;Always+Learning.+Always+Building." alt="Footer Typing Animation"/>
 
-**© Bijendra Kumar Patel**
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7A00FF,50:0077FF,100:00F5FF&height=120&section=footer&animation=twinkling" width="100%"/>
 
 </div>
 ```
-
-### Why I changed the broken sections
-
-I **removed these from the final version**:
-
-```text
-github-readme-stats
-github-readme-streak-stats
-github-readme-activity-graph
-github-profile-trophy
-```
-
-because these are dynamically generated external services. The GitHub Readme Stats project itself documents that its public Vercel instance can hit GitHub API rate limits; self-hosting is the more reliable option if you specifically want those cards. ([GitHub][1])
-
-So your README will no longer have the ugly:
-
-```text
-[broken image]
-[broken image]
-[broken image]
-```
-
-in the middle of your profile.
-
-At the same time, I added **everything supported by your resume**: your current role, full technical stack, all listed projects, Blazor/Razor Pages, LINQ, DI, RabbitMQ/Mosquitto/Postman, security architecture, education, certifications, 400+ LeetCode achievement, and telemetry achievement.    
-
-**One thing to check before committing:** confirm whether your actual GitHub username is `bijendrakumarpatel` or `bijendra-hbeonlabs`, because your resume and previous README contain different usernames.
-
-[1]: https://github.com/worthant/github-readme-stats?utm_source=chatgpt.com "GitHub - worthant/github-readme-stats: Self-hosted version of anuraghazra's readme stats project · GitHub"
