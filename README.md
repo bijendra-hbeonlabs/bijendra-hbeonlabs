@@ -1,5 +1,54 @@
+<!-- ========================================================= -->
+<!--                  BIJENDRA KUMAR PATEL                     -->
+<!--             PROFESSIONAL GITHUB PROFILE                   -->
+<!-- ========================================================= -->
+
+<div align="center">
+
+<!-- Animated Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,50:0077FF,100:7A00FF&height=220&section=header&text=BIJENDRA%20KUMAR%20PATEL&fontSize=42&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=Full%20Stack%20.NET%20Developer%20%7C%20Industrial%20IoT%20%26%20Automation&descAlignY=60&descSize=18" width="100%"/>
+
+<br/>
+
+<!-- Typing SVG Animation -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=00F5FF&center=true&vCenter=true&width=900&lines=Full+Stack+.NET+Developer;C%23+%7C+.NET+8+%7C+ASP.NET+Core+%7C+Avalonia+UI;Industrial+IoT+%26+Automation+Engineer;MQTT+%7C+Modbus+RTU%2FTCP+%7C+RS485+%7C+SNMP;Building+Scalable+Enterprise+Backend+APIs" alt="Typing SVG"/>
+
+<br/><br/>
+
+<p align="center">
+  <a href="https://github.com/bijendrakumarpatel">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="mailto:bijendrakumarpatel9@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
+
+<img src="https://komarev.com/ghpvc/?username=bijendrakumarpatel&label=PROFILE%20VIEWS&color=00F5FF&style=for-the-badge" alt="Profile Views"/>
+
+</div>
+
 ---
 
+# 👨‍💻 About Me
+
+```text
+┌──────────────────────────────────────────────────────────────────────────┐
+│                          BIJENDRA KUMAR PATEL                            │
+├──────────────────────────────────────────────────────────────────────────┤
+│ Role        : Full Stack .NET & Industrial IoT Developer                 │
+│ Experience  : 1+ Years Enterprise & Hardware Telemetry Experience        │
+│ Focus       : Enterprise Applications + Industrial IoT + Automation      │
+│ Backend     : C# | .NET 8 | ASP.NET Core | REST APIs | Microservices     │
+│ Frontend    : Blazor | Avalonia UI | React.js | Next.js | Razor Pages    │
+│ Database    : SQL Server | MySQL | MariaDB | Entity Framework Core       │
+│ IoT         : MQTT | Modbus RTU/TCP | RS485 | SNMP v2c | LoRaWAN          │
+│ Security    : JWT | ASP.NET Core Identity | RBAC                         │
+│ DevOps & OS : Git | GitHub | Docker | Linux (AlmaLinux/Ubuntu) | PM2     │
+└──────────────────────────────────────────────────────────────────────────┘
 # 👨‍💻 About Me
 
 ```text
